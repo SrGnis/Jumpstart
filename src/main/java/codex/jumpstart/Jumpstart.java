@@ -26,12 +26,12 @@ import com.simsilica.lemur.GuiGlobals;
  * Move your Logic into AppStates or Controls
  * @author normenhansen
  */
-public class Main extends SimpleApplication {
+public class Jumpstart extends SimpleApplication {
     
     BulletAppState bulletapp;
     
     public static void main(String[] args) {
-        Main app = new Main();
+        Jumpstart app = new Jumpstart();
         var settings = new AppSettings(true);
         settings.setFrequency(120);
         settings.setVSync(true);

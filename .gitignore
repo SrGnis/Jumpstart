@@ -11,3 +11,5 @@
 *.blend1
 *.j3odata
 *.log
+.gradle
+.idea
