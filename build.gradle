@@ -5,13 +5,7 @@ plugins {
     id 'idea'
     id "io.github.0ffz.github-packages" version "1.2.1" // Plugin for anonymous inclusion of artifacts hosted in github package registry
 }
-tasks.withType(Tar){
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-}
 
-tasks.withType(Zip){
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-}
 description = 'Jumpstart application'
 
 java {
@@ -58,7 +52,7 @@ dependencies {
     implementation 'com.simsilica:lemur-proto:1.13.0'
     implementation 'com.github.stephengold:Minie:7.7.0'
 
-    implementation 'com.github.jMonkeyEngine-Contributions:zay-es:v1.5.0'
+    implementation 'com.simsilica:zay-es:1.5.0'
 
     implementation 'com.github.stephengold:SkyControl:1.0.4'
 
